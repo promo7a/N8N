@@ -1,12 +1,8 @@
-# fly.toml app configuration file generated for n8n-uboljg on 2026-04-12T22:20:11Z
-#
-# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
-#
-
 app = 'n8n-uboljg'
 primary_region = 'cdg'
 
-[build]
+[env]
+  N8N_USER_MANAGEMENT_DISABLED = "true"
 
 [http_service]
   internal_port = 5678
@@ -20,4 +16,3 @@ primary_region = 'cdg'
   memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
-  memory_mb = 1024
