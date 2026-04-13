@@ -23,4 +23,4 @@ primary_region = 'cdg'
 [mounts]
   source = "n8n_data_new"
   destination = "/home/node/.n8n"
-initial_size = "1gb"
+initial_size = '1gb' 
