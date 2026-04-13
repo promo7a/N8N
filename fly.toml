@@ -1,10 +1,13 @@
 app = 'n8n-uboljg'
 primary_region = 'cdg'
 
+[build]
+
+
 [env]
   N8N_BASIC_AUTH_ACTIVE = "true"
-  N8N_BASIC_AUTH_USER = "mohamed.hal2012@gmail.com"
-  N8N_BASIC_AUTH_PASSWORD = "haloooooo666666A"
+  N8N_BASIC_AUTH_USER = "mohamed.hal2012@gmail.com" 
+  N8N_BASIC_AUTH_PASSWORD = "haloooooo666666A" 
   N8N_USER_MANAGEMENT_DISABLED = "true"
 
 [http_service]
@@ -19,8 +22,3 @@ primary_region = 'cdg'
   memory = '1gb'
   cpu_kind = 'shared'
   cpus = 1
-  
-[mounts]
-  source = "n8n_data_new"
-  destination = "/home/node/.n8n"
-initial_size = '1gb' 
