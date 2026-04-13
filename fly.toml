@@ -4,7 +4,7 @@ primary_region = "cdg"
 [env]
   N8N_BASIC_AUTH_ACTIVE = "true"
   N8N_BASIC_AUTH_USER = "mohamed"
-  N8N_BASIC_AUTH_PASSWORD = "ضع_باسورد_من_اختيارك_هنا"
+  N8N_BASIC_AUTH_PASSWORD = "haloooooo666666A"
   N8N_USER_MANAGEMENT_DISABLED = "true"
 
 [http_service]
